@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanye Box</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="videoBackground">
+      <video
+        id="yeezVid"
+        src="assets/videos/yeezusVid.mp4"
+        autoplay="autoplay"
+        muted=""
+        loop="infinite"
+      ></video>
+
+      <video
+        id="kanyeVid"
+        src="assets/videos/kanyeOldLow.mp4"
+        autoplay="autoplay"
+        muted=""
+        loop="infinite"
+      ></video>
+
+      <video
+        id="pauseVid"
+        src="assets/videos/pauseVid.mp4"
+        autoplay="autoplay"
+        muted=""
+        loop="infinite"
+      ></video>
+
+      <video
+        id="scratches"
+        src="assets/videos/hi8Scratches.mp4"
+        autoplay="autoplay"
+        muted=""
+        loop="infinite"
+      ></video>
+    </div>
+
+    <div class="intro">
+      <div class="introContainer">
+        <img
+          class="pauseLogo"
+          src="./assets/images/pauseLogo.png"
+          alt="pauseLogo"
+        />
+        <img
+          class="playLogo"
+          src="./assets/images/playLogo2.png"
+          alt="playLogo"
+        />
+        <div class="outroBlockTitleContainer">
+          <div class="blockTitle">
+            <p class="shadowEffect vhsTextShadow">KANYE WEST</p>
+            <h1 class="introTitle vhsTextShadow">KANYE WEST</h1>
+          </div>
+        </div>
+
+        <div class="outroContainerPlayButton">
+          <div class="playButtonContainer vhsShadowContainer">
+            <div class="playButton vhsTextShadow">
+              PLAY <span class="arrowPlay vhsTextShadow">▶</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="elementsContainer">
+      <div class="switchButton vhsTextShadow">
+        <h3 class="textMode">Kanye</h3>
+
+        <div class="toggle vhsToggleEffect">
+          <div class="indicator"></div>
+        </div>
+        <h3 class="textMode">Yeesuz</h3>
+      </div>
+
+      <div class="globalContainer">
+        <div class="moveKanyeTitleBlock">
+          <div class="blockTitle mainTitleKanye">
+            <p class="shadowEffect vhsTextShadow">KANYE WEST</p>
+            <h1 class="introTitle vhsTextShadow">KANYE WEST</h1>
+          </div>
+          <div class="blockTitle subTitleContainer">
+            <p class="shadowEffect vhsTextShadow">2001, New York</p>
+            <h2 class="introTitle vhsTextShadow">2001, New York</h2>
+          </div>
+        </div>
+
+        <div class="movePadContainer">
+          <div class="padContainer"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
