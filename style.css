@@ -17,6 +17,17 @@
   user-select: none;
 }
 
+.vhsShadowContainer {
+  -webkit-box-shadow: inset 0px 0px 7px 3px #ce2cff94, 0px 0px 9px 3px #ce2cff94;
+  box-shadow: inset 0px 0px 7px 3px #ce2cff94, 0px 0px 9px 3px #ce2cff94;
+  transition: 0.7s ease;
+  animation: neonVHSPad 3.5s infinite ease;
+}
+
+.vhsTextShadow {
+  text-shadow: 0px 2px 3px #ce2cffe0;
+}
+
 #yeezVid {
   object-fit: cover;
   opacity: 0;
@@ -222,16 +233,7 @@
   width: 100%;
 }
 
-.vhsShadowContainer {
-  -webkit-box-shadow: inset 0px 0px 7px 3px #ce2cff94, 0px 0px 9px 3px #ce2cff94;
-  box-shadow: inset 0px 0px 7px 3px #ce2cff94, 0px 0px 9px 3px #ce2cff94;
-  transition: 0.7s ease;
-  animation: neonVHSPad 3.5s infinite ease;
-}
 
-.vhsTextShadow {
-  text-shadow: 0px 2px 3px #ce2cffe0;
-}
 
 .switchButton {
   opacity: 1;
